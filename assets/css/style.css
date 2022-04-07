@@ -3528,7 +3528,7 @@ hr {
 
   /* line 3, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-height {
-    min-height: 650px;
+    min-height: 365px;
   }
 }
 
@@ -3786,7 +3786,7 @@ hr {
 .about-area {
   background: #ffff;
   position: relative;
-  margin-right: 100px;
+  margin-right: 0px;
   position: relative;
 }
 
@@ -3794,7 +3794,7 @@ hr {
 
   /* line 1, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
   .about-area {
-    margin-right: 50px;
+    margin-right: 0px;
   }
 }
 
@@ -3802,7 +3802,7 @@ hr {
 
   /* line 1, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
   .about-area {
-    margin-right: 50px;
+    margin-right: 0px;
   }
 }
 
@@ -3829,7 +3829,7 @@ hr {
   width: 100%;
   height: 27%;
   background: #FFEFAE;
-  right: -100px;
+  right: -0px;
   z-index: -1;
   top: 0;
 }
@@ -3839,7 +3839,6 @@ hr {
   /* line 19, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
   .about-area::before {
     height: 15%;
-    right: -50px;
   }
 }
 
@@ -3848,7 +3847,6 @@ hr {
   /* line 19, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
   .about-area::before {
     height: 15%;
-    right: -50px;
   }
 }
 
@@ -3873,7 +3871,6 @@ hr {
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 35px;
-  padding-right: 50px;
   font-weight: 300;
 }
 
@@ -3881,7 +3878,7 @@ hr {
 
   /* line 44, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
   .about-area .about-caption p {
-    padding-right: 20px;
+    padding-right: 0px;
   }
 }
 
@@ -4631,7 +4628,7 @@ hr {
 
 /* line 131, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_footer.scss */
 .footer-social>a {
-  color: #FFEFAE;
+  color: #fff;
   width: 50px;
   height: 50px;
   font-size: 17px;
@@ -4639,7 +4636,7 @@ hr {
   display: inline-block;
   text-align: center;
   margin-right: 8px;
-  background: #771912;
+  background: #640a5d;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
