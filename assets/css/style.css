@@ -3132,11 +3132,35 @@ hr {
   font-weight: 300;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+  /* line 955, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
+  .section-tittle2 h2 {
+    font-size: 41px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  /* line 955, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
+  .section-tittle2 h2 {
+    font-size: 62px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+  /* line 955, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
+  .section-tittle2 h2 {
+    font-size: 31px;
+  }
+}
+
 @media (max-width: 575px) {
 
   /* line 982, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
   .section-tittle2 h2 {
-    font-size: 45px;
+    font-size: 28px;
   }
 }
 
@@ -3494,7 +3518,7 @@ hr {
 
 /* line 3, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
 .slider-height {
-  min-height: 650px;
+  min-height: 450px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3504,7 +3528,7 @@ hr {
 
   /* line 3, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-height {
-    min-height: 650px;
+    min-height: 450px;
   }
 }
 
@@ -3512,7 +3536,7 @@ hr {
 
   /* line 3, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-height {
-    min-height: 650px;
+    min-height: 400px;
   }
 }
 
@@ -3520,7 +3544,7 @@ hr {
 
   /* line 3, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-height {
-    min-height: 650px;
+    min-height: 350px;
   }
 }
 
@@ -3528,7 +3552,7 @@ hr {
 
   /* line 3, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-height {
-    min-height: 365px;
+    min-height: 300px;
   }
 }
 
@@ -3546,7 +3570,7 @@ hr {
 
   /* line 25, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption {
-    padding-top: 80px;
+    padding-top: 20px;
   }
 }
 
@@ -3554,7 +3578,7 @@ hr {
 
   /* line 25, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption {
-    padding-top: 48px;
+    padding-top: 20px;
   }
 }
 
@@ -3562,7 +3586,7 @@ hr {
 
   /* line 25, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption {
-    padding-top: 54px;
+    padding-top: 20px;
   }
 }
 
@@ -4403,7 +4427,7 @@ hr {
 
   /* line 14, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_want-wark.scss */
   .wantToWork-area .wantToWork-caption h2 {
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 20px;
   }
 }
@@ -4412,7 +4436,7 @@ hr {
 
   /* line 14, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_want-wark.scss */
   .wantToWork-area .wantToWork-caption h2 {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 20px;
   }
 }
@@ -6308,6 +6332,7 @@ hr {
 /* line 10, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_contact.scss */
 .contact-info {
   margin-bottom: 25px;
+  color: #fff;
 }
 
 /* line 13, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_contact.scss */
@@ -8049,8 +8074,4 @@ del {
   margin-right: 40px;
   border-radius: 50%;
   box-shadow: 0 5px 10px var(--base_shadow_color);
-}
-
-.contact {
-  color: FFEFAE;
 }
