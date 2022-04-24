@@ -3544,6 +3544,7 @@ hr {
 
   /* line 3, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-height {
+    padding-top: 80px;
     min-height: 350px;
   }
 }
@@ -3552,6 +3553,7 @@ hr {
 
   /* line 3, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-height {
+    padding-top: 80px;
     min-height: 300px;
   }
 }
