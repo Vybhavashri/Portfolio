@@ -212,15 +212,19 @@ body {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   font-family: "Poppins", sans-serif;
   color: #640a5d;
-  margin-top: 0px;
   font-style: normal;
   font-weight: 400;
   text-transform: normal;
+}
+
+h4 {
+  color: #fff4c6;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 /* line 24, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
@@ -584,8 +588,8 @@ hr {
 /* line 303, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .white-btn {
   padding: 18px 36px;
-  background: #FFEFAE;
-  color: #640a5d !important;
+  background: #640a5d;
+  color: #FFEFAE !important;
 }
 
 /* line 307, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
