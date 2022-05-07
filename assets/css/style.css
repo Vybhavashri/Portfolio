@@ -6363,7 +6363,7 @@ hr {
 
 /* line 30, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_contact.scss */
 .contact-info .media-body h3 a:hover {
-  color: #1f2b7b;
+  color: #640A5D;
 }
 
 /* line 36, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_contact.scss */
@@ -6495,7 +6495,7 @@ hr {
 
 /* line 146, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_contact.scss */
 .contact-section .btn_2:hover {
-  background-color: #1f2b7b;
+  background-color: #640A5D;
 }
 
 /* line 1, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_bradcam.scss */
@@ -6824,7 +6824,7 @@ sup,
 sub,
 u,
 del {
-  color: #1f2b7b;
+  color: #640A5D;
 }
 
 /* line 95, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
@@ -6956,28 +6956,28 @@ del {
 /* line 185, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .genric-btn.primary {
   color: #fff;
-  background: #1f2b7b;
+  background: #640A5D;
   border: 1px solid transparent;
 }
 
 /* line 189, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .genric-btn.primary:hover {
-  color: #1f2b7b;
-  border: 1px solid #1f2b7b;
+  color: #640A5D;
+  border: 1px solid #640A5D;
   background: #fff;
 }
 
 /* line 195, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .genric-btn.primary-border {
-  color: #1f2b7b;
-  border: 1px solid #1f2b7b;
+  color: #640A5D;
+  border: 1px solid #640A5D;
   background: #fff;
 }
 
 /* line 199, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .genric-btn.primary-border:hover {
   color: #fff;
-  background: #1f2b7b;
+  background: #640A5D;
   border: 1px solid transparent;
 }
 
@@ -7135,7 +7135,7 @@ del {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #1f2b7b;
+  border-left: 2px solid #640A5D;
 }
 
 /* line 321, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
@@ -7290,7 +7290,7 @@ del {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 3px solid #1f2b7b;
+  border: 3px solid #640A5D;
   background: #fff;
   top: 4px;
   left: 0;
@@ -7305,7 +7305,7 @@ del {
 /* line 443, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .ordered-list li {
   list-style-type: decimal-leading-zero;
-  color: #1f2b7b;
+  color: #640A5D;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -7320,7 +7320,7 @@ del {
 .ordered-list-alpha li {
   margin-left: 30px;
   list-style-type: lower-alpha;
-  color: #1f2b7b;
+  color: #640A5D;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -7335,7 +7335,7 @@ del {
 .ordered-list-roman li {
   margin-left: 30px;
   list-style-type: lower-roman;
-  color: #1f2b7b;
+  color: #640A5D;
   font-weight: 500;
   line-height: 1.82em !important;
 }
@@ -7418,7 +7418,7 @@ del {
 /* line 536, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .single-input-primary:focus {
   outline: none;
-  border: 1px solid #1f2b7b;
+  border: 1px solid #640A5D;
 }
 
 /* line 542, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
@@ -7486,7 +7486,7 @@ del {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: #1f2b7b;
+  background: #640A5D;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   -o-transition: all 0.2s;
@@ -7577,7 +7577,7 @@ del {
 
 /* line 664, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .primary-switch input:checked+label:before {
-  background: #1f2b7b;
+  background: #640A5D;
 }
 
 /* line 672, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
@@ -7964,13 +7964,13 @@ del {
 
 /* line 990, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .default-select .nice-select .list .option.selected {
-  color: #1f2b7b;
+  color: #640A5D;
   background: transparent;
 }
 
 /* line 994, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .default-select .nice-select .list .option:hover {
-  color: #1f2b7b;
+  color: #640A5D;
   background: transparent;
 }
 
@@ -8027,13 +8027,13 @@ del {
 
 /* line 1035, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .form-select .nice-select .list .option.selected {
-  color: #1f2b7b;
+  color: #640A5D;
   background: transparent;
 }
 
 /* line 1039, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_elements.scss */
 .form-select .nice-select .list .option:hover {
-  color: #1f2b7b;
+  color: #640A5D;
   background: transparent;
 }
 
