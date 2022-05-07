@@ -35,6 +35,17 @@
 </head>
 
 <body>
+  <!-- ? Preloader Start -->
+  <div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+      <div class="preloader-inner position-relative">
+        <div class="preloader-circle"></div>
+        <div class="preloader-img pere-text">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Preloader Start -->
 
   <header>
     <div class="header-area header-transparent">
@@ -72,11 +83,10 @@
     <div id="home" class="slider-area">
       <div class="single-slider slider-height d-flex align-items-center">
         <div class="container">
-          <img src="assets/img/shri.jpg" alt="Vybhavashri Portrait" class="profile__portrait">
           <div class="row justify-content-left">
             <div class="col-xl-12 col-lg-10 col-md-10 col-sm-10"><br />
-              <h1><b>Vybhavashri KRISHNAMURTHY</b></h1>
               <div class="hero__caption">
+                <h1>Vybhavashri KRISHNAMURTHY</h1>
                 <p>Full Stack Web developer</p>
                 <p class="cd-headline letters scale">Skilled at
                   <a href="#" class="cd-words-wrapper">
@@ -103,14 +113,19 @@
               <div class="section-tittle mb-35">
                 <h2>About me</h2>
               </div>
-              <p>Namaste! I am Shri from India, living in Mainz. My prior role as a Software
-                Engineer at a Health-care Industry included resolving functional and UI defects. I’ve always
-                had a passion for technology, from making websites as part of academic learning and other
-                small freelance project for a hospital functioning in my hometown. I aim to develop clean,
-                customised and responsive web applications. My goal is to turn my passion into my
+              <p>Namaste! I am Shri from India, living in Mainz. I’ve always
+                had a passion for technology, from making websites as part of academic learning and cresting
+                a small freelance project for a hospital functioning in my hometown. My prior role as a Software
+                Engineer at a Health-care Industry has exposed me to various stages of development processes. I aim to
+                develop clean, customised and responsive web applications. My goal is to turn my passion into
                 profession by working as a Full-stack developer at a reputed organisation.
                 I look forward to jumping into future oriented, creative and sustainable projects!
               </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-img profile__portrait">
+              <img src="assets/img/shri1.png" alt="">
             </div>
           </div>
         </div>
@@ -130,14 +145,28 @@
             <div class="single-about">
               <div class="tittle-experience">
                 <h3>Software Engineer</h3>
-                <p>Jan 2015 - Dec 2016</p>
+                <p>Jul 2015 - Nov 2016</p>
               </div>
               <div class="experience-link">
-                <a href="https://careers.cerner.com/locations/asia-pacific/bangalore" target="_blank">Cerner Healthcare,
+                <a href="" target="_blank">Cerner Healthcare,
                   India <i class="fas fa-external-link-alt"></i></a>
               </div>
             </div>
           </div>
+
+          <div class="col-xl-12">
+            <div class="single-about">
+              <div class="tittle-experience">
+                <h3>Software Engineer Intern</h3>
+                <p>Jan 2015 - Jun 2015</p>
+              </div>
+              <div class="experience-link">
+                <a href="./assets/doc/Work Experience - Vybhavashri.pdf" target="_blank">Experience Letter
+                  <i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+
           <div class="col-lg-12">
             <div class="section-tittle2 mb-30 pt-50">
               <h2>Education</h2>
@@ -150,23 +179,35 @@
                 <h4> CareerFoundry GmbH, Berlin</h4>
                 <p>Jun 2021 - Present</p>
               </div>
-            </div>
-          </div>
-          <div class="col-xl-12">
-            <div class="single-about">
-              <div class="tittle-experience">
-                <h3>Master of Computer Applications</h3>
-                <h4>Visvesvaraya Technical University, India</h4>
-                <p>Jun 2012 - May 2015</p>
+              <div class="experience-link">
+                <a href="./assets/doc/CareerFoundry_Certificate_Vybhavashri Krishnamurthy 3.pdf" target="_blank">Course
+                  Certificate <i class="fas fa-external-link-alt"></i></a>
               </div>
             </div>
           </div>
           <div class="col-xl-12">
             <div class="single-about">
               <div class="tittle-experience">
-                <h3>Bachelor of Computer Applications</h3>
+                <h3>Master of Computer Application</h3>
+                <h4>Visvesvaraya Technical University, India</h4>
+                <p>Jun 2012 - May 2015</p>
+              </div>
+              <div class="experience-link">
+                <a href="./assets/doc/Master Degree Certificate - Vybhavashri.pdf" target="_blank">Degree
+                  Certificate <i class="fas fa-external-link-alt"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-12">
+            <div class="single-about">
+              <div class="tittle-experience">
+                <h3>Bachelor of Computer Application</h3>
                 <h4>Mysore University, India</h4>
                 <p>Jun 2009 - Apr 2012</p>
+              </div>
+              <div class="experience-link">
+                <a href="./assets/doc/Bachelor Degree Certificate .pdf" target="_blank">Degree
+                  Certificate <i class="fas fa-external-link-alt"></i></a>
               </div>
             </div>
           </div>
@@ -292,7 +333,7 @@
               </p>
               <a class="btn theme-btn" href="https://github.com/Vybhavashri/myFlix-client" target="_blank">
                 CODE</a>
-              <a class="btn theme-btn case-btn" style="align-content: center;" href="#" target="_blank">
+              <a class="btn theme-btn case-btn" style="align-content: center;" href="./case-study.html">
                 CASE STUDY</a>
               <a class="btn theme-btn" href="https://my-flix-client.netlify.app/" target="_blank">
                 DEMO</a>
