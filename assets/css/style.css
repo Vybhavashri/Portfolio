@@ -2848,15 +2848,15 @@ hr {
 
 /* line 830, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .section-padding40 {
-  padding-top: 140px;
-  padding-bottom: 130px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
   /* line 830, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
   .section-padding40 {
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom: 70px;
   }
 }
@@ -2865,8 +2865,8 @@ hr {
 
   /* line 830, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
   .section-padding40 {
-    padding-top: 65px;
-    padding-bottom: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 }
 
@@ -2874,8 +2874,8 @@ hr {
 
   /* line 830, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
   .section-padding40 {
-    padding-top: 65px;
-    padding-bottom: 70px;
+    padding-top: 45px;
+    padding-bottom: 45px;
   }
 }
 
@@ -3268,7 +3268,7 @@ hr {
 
   /* line 5, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
   .header-area .main-header {
-    padding: 0 60px;
+    padding: 0 40px;
   }
 }
 
@@ -3942,7 +3942,7 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
   /* line 63, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
-  .about-area .about-img {
+  .about-area .about-img img {
     padding-top: 20px;
     border-radius: 50%;
     width: 300px;
@@ -3952,7 +3952,7 @@ hr {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
 
   /* line 63, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
-  .about-area .about-img {
+  .about-area .about-img img {
     padding-top: 20px;
     border-radius: 50%;
     width: 200px;
@@ -3962,7 +3962,7 @@ hr {
 @media (max-width: 575px) {
 
   /* line 63, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
-  .about-area .about-img {
+  .about-area .about-img img {
     padding-top: 20px;
     border-radius: 50%;
     width: 150px;
@@ -4677,8 +4677,10 @@ hr {
   line-height: 50px;
   display: inline-block;
   text-align: center;
-  margin-right: 8px;
+  margin-right: 40px;
   background: #640a5d;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -5563,229 +5565,8 @@ hr {
   }
 }
 
-.blog_right_sidebar img {
+.blog_area img {
   height: 300px;
-}
-
-/* line 742, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .widget_title {
-  font-size: 20px;
-  margin-bottom: 40px;
-}
-
-/* line 747, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .widget_title::after {
-  content: "";
-  display: block;
-  padding-top: 15px;
-  border-bottom: 1px solid #f0e9ff;
-}
-
-/* line 755, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .single_sidebar_widget {
-  background: #fbf9ff;
-  padding: 30px;
-  margin-bottom: 30px;
-}
-
-/* line 759, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .single_sidebar_widget .btn_1 {
-  margin-top: 0px;
-}
-
-/* line 767, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .search_widget .form-control {
-  height: 50px;
-  border-color: #f0e9ff;
-  font-size: 13px;
-  color: #999999;
-  padding-left: 20px;
-  border-radius: 0;
-  border-right: 0;
-}
-
-/* line 776, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .search_widget .form-control::placeholder {
-  color: #999999;
-}
-
-/* line 780, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .search_widget .form-control:focus {
-  border-color: #f0e9ff;
-  outline: 0;
-  box-shadow: none;
-}
-
-/* line 789, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .search_widget .input-group button {
-  background: #640a5d;
-  border-left: 0;
-  border: 1px solid #f0e9ff;
-  padding: 4px 15px;
-  border-left: 0;
-  cursor: pointer;
-}
-
-/* line 797, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .search_widget .input-group button i {
-  color: #fff;
-}
-
-/* line 800, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .search_widget .input-group button span {
-  font-size: 14px;
-  color: #999999;
-}
-
-/* line 811, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .newsletter_widget .form-control {
-  height: 50px;
-  border-color: #f0e9ff;
-  font-size: 13px;
-  color: #999999;
-  padding-left: 20px;
-  border-radius: 0;
-}
-
-/* line 820, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .newsletter_widget .form-control::placeholder {
-  color: #999999;
-}
-
-/* line 824, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .newsletter_widget .form-control:focus {
-  border-color: #f0e9ff;
-  outline: 0;
-  box-shadow: none;
-}
-
-/* line 833, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .newsletter_widget .input-group button {
-  background: #fff;
-  border-left: 0;
-  border: 1px solid #f0e9ff;
-  padding: 4px 15px;
-  border-left: 0;
-}
-
-/* line 840, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .newsletter_widget .input-group button i,
-.blog_right_sidebar .newsletter_widget .input-group button span {
-  font-size: 14px;
-  color: #fff;
-}
-
-/* line 853, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .post_category_widget .cat-list li {
-  border-bottom: 1px solid #f0e9ff;
-  transition: all 0.3s ease 0s;
-  padding-bottom: 12px;
-}
-
-/* line 858, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .post_category_widget .cat-list li:last-child {
-  border-bottom: 0;
-}
-
-/* line 862, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .post_category_widget .cat-list li a {
-  font-size: 14px;
-  line-height: 20px;
-  color: #888888;
-}
-
-/* line 867, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .post_category_widget .cat-list li a p {
-  margin-bottom: 0px;
-}
-
-/* line 872, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .post_category_widget .cat-list li+li {
-  padding-top: 15px;
-}
-
-/* line 889, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .popular_post_widget .post_item .media-body {
-  justify-content: center;
-  align-self: center;
-  padding-left: 20px;
-}
-
-/* line 894, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .popular_post_widget .post_item .media-body h3 {
-  font-size: 16px;
-  line-height: 20px;
-  margin-bottom: 6px;
-  transition: all 0.3s linear;
-}
-
-/* line 905, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .popular_post_widget .post_item .media-body a:hover {
-  color: #fff;
-}
-
-/* line 911, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .popular_post_widget .post_item .media-body p {
-  font-size: 14px;
-  line-height: 21px;
-  margin-bottom: 0px;
-}
-
-/* line 918, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .popular_post_widget .post_item+.post_item {
-  margin-top: 20px;
-}
-
-/* line 926, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .tag_cloud_widget ul li {
-  display: inline-block;
-}
-
-/* line 929, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .tag_cloud_widget ul li a {
-  display: inline-block;
-  border: 1px solid #eeeeee;
-  background: #fff;
-  padding: 4px 20px;
-  margin-bottom: 8px;
-  margin-right: 3px;
-  transition: all 0.3s ease 0s;
-  color: #888888;
-  font-size: 13px;
-}
-
-/* line 940, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #640a5d;
-  color: #fff !important;
-  -webkit-text-fill-color: #fff;
-  text-decoration: none;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-/* line 955, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .instagram_feeds .instagram_row {
-  display: flex;
-  margin-right: -6px;
-  margin-left: -6px;
-}
-
-/* line 961, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .instagram_feeds .instagram_row li {
-  width: 33.33%;
-  float: left;
-  padding-right: 6px;
-  padding-left: 6px;
-  margin-bottom: 15px;
-}
-
-/* line 1061, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
-.blog_right_sidebar .br {
-  width: 100%;
-  height: 1px;
-  background: #eeeeee;
-  margin: 30px 0px;
 }
 
 /* line 1082, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_blog_page.scss */
@@ -8102,4 +7883,13 @@ del {
   background: #640a5d;
   color: #E8F1F8 !important;
   margin: 0px 10px;
+}
+
+.endpoints {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.blog_area li {
+  list-style-type: circle;
 }
